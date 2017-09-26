@@ -11,6 +11,8 @@ class ReportFile(BaseReader):
         Requires:
         - path: str, the full file path to the existing SWMM model .inp.
         """
+        #!!! TODO !!!
+        #Inspect units
         BaseReader.__init__(self, path)
 
         self._subcatchment_runoff_results = None
